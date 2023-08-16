@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+        width: 755px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+.bg-image1{
+  background-image: url(../assets/mybackground_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 20px 17px #030c28;
+}
+.btn-shadow{
+    box-shadow: 0px 5px 20px #00E3A5;
+}
+.img-shadow1{
+  box-shadow: -25px -25px 30px #ffff00bf;
+}
+.img-shadow2{
+  box-shadow: -25px -25px 30px #00E3A5;
+}
+
+.img-shadow3{
+  box-shadow: -26px -25px 32px #e38600;
+}
+.img-shadow4{
+  box-shadow: -25px -25px 30px #00E3A5;
+}
+.last-bg{
+  background-image: url(../assets/second.png);
+}
